@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+  
+  
+</head>
+<body>
+    <h1>
+        SNAKE GAME
+    </h1>
+    <div id="Game" width="500" height="500">
+        <canvas id="board" width="500" height="500" >
+        </canvas>
+        <table>
+            <tr>
+              <td>HIGHSCORE: </td>
+              <td>SCORE:</td>
+              
+            </tr>
+            <tr>
+              <td id="HighScore"></td>
+              <td id="Score"></td>
+            </tr>
+          </table>
+    </div>
+    <button onclick="rejouer()">REJOUER</button>
+    <script src="../JS/script.js"></script>
+</body>
+</html>

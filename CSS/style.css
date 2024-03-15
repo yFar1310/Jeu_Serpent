@@ -1,0 +1,77 @@
+body{
+    background-image: url(../IMG/bg_snake.jpg);
+    background-position: right top, left top;
+  background-repeat: no-repeat, no-repeat;
+}
+#Game
+{
+    background-color: black;
+    border: 10px ridge red;
+    display: flex;
+    height: 500px;
+    width: 500px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 47%;
+}
+h1
+{
+    text-align: center;
+    font-family:cursive;
+    color:deeppink;
+}
+a
+{
+    padding-left: 47%;
+    color:crimson;
+}
+#Score
+{
+    color: white;
+    text-align:510px;
+    font-family: cursive;
+    font-size:xx-large;
+}
+#G
+{
+    color: white;
+    text-align: right;
+    font-family: cursive;
+    font-size:xx-large;
+}
+#S{
+    color : white;
+    text-align: right;
+    font-family: cursive;
+    font-size:xx-large;
+}
+#HighScore
+{
+    color: white;
+    text-align: 510px;
+    font-family: cursive;
+    font-size:xx-large;
+}
+tr
+{
+    color: white;
+    font-family: cursive;
+    font-size:larger;
+
+}
+table{
+    border-collapse: collapse;
+    height: 510px;
+  }
+  
+  td{
+    border: 10px ridge red;
+    padding: 50px;
+  }
